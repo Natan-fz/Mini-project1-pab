@@ -34,46 +34,46 @@ Setiap kategori layanan memiliki ikon dan warna yang berbeda untuk membedakan je
 Aplikasi menggunakan sistem multi-page navigation dengan Navigator untuk berpindah halaman dan mengirim data kembali ke halaman sebelumnya.
 
 WIDGET YANG DIGUNAKAN
-MaterialApp
+-MaterialApp
 Digunakan sebagai root aplikasi dan untuk mengatur tema serta halaman awal aplikasi.
 
-Scaffold
+-Scaffold
 Menjadi struktur utama halaman yang berisi AppBar, body, dan FloatingActionButton.
 
-AppBar
+-AppBar
 Menampilkan judul halaman pada bagian atas aplikasi.
 
-ListView.builder
+-ListView.builder
 Digunakan untuk menampilkan daftar layanan secara dinamis berdasarkan jumlah data yang tersedia.
 
-Card
+-Card
 Menampilkan setiap layanan dalam bentuk kartu agar tampilan lebih terstruktur dan rapi.
 
-ListTile
+-ListTile
 Digunakan untuk menyusun elemen dalam Card seperti ikon, judul, deskripsi, dan tombol aksi.
 
-CircleAvatar
+-CircleAvatar
 Digunakan untuk menampilkan ikon kategori layanan dengan latar belakang berwarna.
 
-Icon dan IconButton
+-Icon dan IconButton
 Digunakan sebagai tombol aksi seperti edit dan delete serta sebagai ikon kategori layanan.
 
-FloatingActionButton
+-FloatingActionButton
 Digunakan untuk menambahkan layanan baru.
 
-Navigator
+-Navigator
 Digunakan untuk navigasi antar halaman serta mengirim dan menerima data.
 
-Form
+-Form
 Digunakan untuk membungkus input agar dapat dilakukan validasi sebelum data disimpan.
 
-TextFormField
+-TextFormField
 Digunakan untuk input teks seperti nama layanan, alamat, dan deskripsi.
 
-DropdownButtonFormField
+-DropdownButtonFormField
 Digunakan untuk memilih kategori layanan.
 
-ElevatedButton
+-ElevatedButton
 Digunakan sebagai tombol untuk menyimpan data.
 
 GlobalKey<FormState>
